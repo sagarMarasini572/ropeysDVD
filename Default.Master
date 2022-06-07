@@ -1,0 +1,106 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Default.Master.cs" Inherits="ADGroupCourseWork.Default" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+
+    <%--bootstrap css--%>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <%--datatables css--%>
+    <link href="datatables/css/jquery.dataTables.min.css" rel="stylesheet" />
+     <%--fontawesome css--%>
+    <link href="fontawesome/css/all.css" rel="stylesheet" />
+
+        <%--our custom css--%>
+    <link href="customCss/customstylesheet.css" rel="stylesheet" />
+
+    <%--bootstrap bundle with popper--%>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="height:100%;">
+    <form class = "px-2" id="form1" runat="server">
+        
+        <div>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#">
+                    <asp:Image ID="brandImage" runat="server" Height="150px" Width="500px" ImageUrl="~/images/brandLogo.png" />
+                                                                                                                   
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active ps-5">
+                            <a class="nav-link" href="../AllAccess/home.aspx "><asp:Label ID="homeLabel" runat="server" Text="Home" Font-Size="X-Large" Height="30px" Font-Bold="False"></asp:Label></a>
+                        </li>                      
+
+                    </ul>
+
+                    <ul class="navbar-nav">
+                       <li class="nav-item active ps-5">
+                            <asp:LinkButton class="nav-link" ID="viewDVDsBtn" runat="server" href="../AllAccess/DVDList.aspx"><asp:Label ID="Label1" runat="server" Text="View DVDs" Font-Size="X-Large" Height="30px" Font-Bold="False"></asp:Label></asp:LinkButton>
+                        </li>
+               
+                      <li class="nav-item active ps-5">
+                            <asp:LinkButton class="nav-link" ID="addDVDsBtn" runat="server" href="../addDVDs.aspx" Visible="False"><asp:Label ID="viewDVDsLabel" runat="server" Text="Add DVDs" Font-Size="X-Large" Height="30px" Font-Bold="False"></asp:Label></asp:LinkButton>
+                        </li>
+
+                        <li class="nav-item active ps-5">
+                            <asp:LinkButton class="nav-link" ID="addMemberBtn" runat="server" href="../addMember.aspx" Visible="False"><asp:Label ID="signupLabel" runat="server" Text="Add Member" Font-Size="X-Large" Height="30px" Font-Bold="False"></asp:Label></asp:LinkButton>
+                        </li>          
+                       <li class="nav-item active ps-5">
+                            <asp:LinkButton class="nav-link" ID="issueLoanBtn" runat="server" href="../issueDVDs.aspx" Visible="False"><asp:Label ID="issueLoanLabel" runat="server" Text="Issue Loan" Font-Size="X-Large" Height="30px" Font-Bold="False"></asp:Label></asp:LinkButton>
+                        </li>
+                        
+                       <li class="nav-item active ps-5">
+                            <asp:LinkButton class="nav-link" ID="managePersonnelsBtn" runat="server" href="../personnels.aspx" Visible="False"><asp:Label ID="Label2" runat="server" Text="Personnels" Font-Size="X-Large" Height="30px" Font-Bold="False"></asp:Label></asp:LinkButton>
+                        </li>
+                       <li class="nav-item active ps-5">
+                            <asp:LinkButton class="nav-link" ID="profileBtn" runat="server" href="../profile.aspx" Visible="true"><asp:Label ID="addAssistantLabel" runat="server" Text="Login" Font-Size="X-Large" Height="30px" Font-Bold="False" ></asp:Label></asp:LinkButton>
+                        </li>
+                  
+
+                       <li class="nav-item active ps-5">
+                            <asp:LinkButton class="nav-link" ID="logoutBtn" runat="server" OnClick="logoutBtn_Click" Visible="False"><asp:Label ID="logoutLabel" runat="server" Text="Log Out" Font-Size="X-Large" Height="30px" Font-Bold="False"></asp:Label></asp:LinkButton>
+                        </li>
+                    </ul>
+                </div>
+
+
+            </nav>
+        </div>
+
+
+        <!-- Main Content Placeholder -->
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <!-- Main Content Placeholder -->
+
+         <!-- Footer -->
+        <footer>
+            <div id="footer2" class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 text-center" style="color:#1c144c;">
+                        <p style="color:#9edeec;">&copy All right Reversed. <a class="footerlinks" style="color:#9edeec;" href="#" target="_blank">Ropey DVD's</a></p>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+        <!-- ./Footer -->
+
+    </form>
+</body>
+</html>

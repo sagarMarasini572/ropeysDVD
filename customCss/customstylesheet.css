@@ -1,0 +1,25 @@
+﻿.footerlinks {
+    color: #ffffff;
+    text-decoration: none !important;
+}
+
+    .footerlinks:hover {
+        color: #ffd800;
+    }
+
+#footer2 {
+   background: #1c144c;
+   margin-top:18vh;
+}
+
+.desc p{
+    margin: 0;
+    text-indent: 2rem;
+    text-align: justify;
+}
+
+.description {
+    text-align: justify;
+    text-justify: inter-word;
+}
+

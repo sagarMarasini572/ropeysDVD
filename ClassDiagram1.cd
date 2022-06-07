@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ADGroupCourseWork.addDVDs" Collapsed="true">
+    <Position X="12.25" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>ABCAIDAAAABhgEKCCgAEABhJCAAIIAGVBACKCAKQApA=</HashCode>
+      <FileName>addDVDs.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ADGroupCourseWork.AllAccess.DVDList">
+    <Position X="10" Y="1" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AMoAQAAAAAAAABAAAAAAEAIAAAAgAAQAAAAAAAIAAAA=</HashCode>
+      <FileName>AllAccess\DVDList.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ADGroupCourseWork.Home" Collapsed="true">
+    <Position X="12.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAIAAAA=</HashCode>
+      <FileName>AllAccess\home.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ADGroupCourseWork.addMember" Collapsed="true">
+    <Position X="12" Y="2.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAiAgAAAAAAEAAAIAIABAAQgAAAAABAABAMAIACgA=</HashCode>
+      <FileName>addMember.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ADGroupCourseWork.Default" Collapsed="true">
+    <Position X="10" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAkAAAAAAAAABgEgABZAAIAAQIQAIAhAJAAAg=</HashCode>
+      <FileName>Default.Master.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ADGroupCourseWork.GlobalValues" Collapsed="true">
+    <Position X="12.25" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAgAAAAAAAEAAAAAAAgAAAAAAgAAAAA=</HashCode>
+      <FileName>GlobalValues.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ADGroupCourseWork.issueDVDs">
+    <Position X="6.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>FAhgAMAFAEgoUEEAAAACBIAAAAAAAAAETAAgAQYSAgE=</HashCode>
+      <FileName>issueDVDs.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ADGroupCourseWork.adminLogin" Collapsed="true">
+    <Position X="9.5" Y="3.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAIIQAAAAAAABAQAIAAAA=</HashCode>
+      <FileName>login.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ADGroupCourseWork.personnels">
+    <Position X="0.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>gKAQAAAAACAogGAQAAQQABgACAgIAASCBABAAAuAAiE=</HashCode>
+      <FileName>personnels.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ADGroupCourseWork.profile">
+    <Position X="3.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AIAgAAgAQAIgIEAAIAIAgEgAAAAIBIAAAABAAAIAAgE=</HashCode>
+      <FileName>profile.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
